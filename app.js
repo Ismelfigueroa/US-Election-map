@@ -10,8 +10,8 @@ var getCandidate = function(name, partyColor)
     return politician;
 };
 
-var candidate1 = getCandidate("John Deer", [153,50,204]);
-var candidate2 = getCandidate("Jane Doe", [255,126,13]);
+var candidate1 = getCandidate("Trump", [153,50,204]);
+var candidate2 = getCandidate("Joe Biden", [255,126,13]);
 
 // Election results by state
 candidate1.electionResults = [5, 1, 7, 2, 33, 6, 4, 2, 1, 14, 8, 3, 1, 11, 11, 0, 5, 3, 3, 3, 7, 4, 8, 9, 3, 7, 2, 2, 4, 2, 8, 3, 15, 15, 2, 12, 0, 4, 13, 1, 3, 2, 8, 21, 3, 2, 11, 1, 3, 7, 2]
