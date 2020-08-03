@@ -19,7 +19,7 @@ candidate2.electionResults = [4, 2, 4, 4, 22, 3, 3, 1, 2, 15, 8, 1, 3, 9, 0, 6, 
 
 // Changing some state results that were initially misreported
 candidate1.electionResults[9] = 1;
-candidate1.electionResults[4] = 17;
+candidate1.electionResults[4] = 17; 
 candidate1.electionResults[43] = 11;
 
 candidate2.electionResults[9] = 28;
